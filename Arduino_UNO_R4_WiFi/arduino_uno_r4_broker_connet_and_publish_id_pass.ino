@@ -1,3 +1,4 @@
+// 사용자 ID와 Password를 가지고 MQTT Broker에 접속하는 환경
 #include <WiFiS3.h>
 #include <ArduinoMqttClient.h>
 int status = WL_IDLE_STATUS;
