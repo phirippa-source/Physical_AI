@@ -48,9 +48,9 @@ RiaLineSensorR4 lineSensor(SENSOR_PINS, NUM_SENSORS, EMITTER_PIN);
 const int16_t CENTER_POS = (NUM_SENSORS - 1) * 1000 / 2; // 2500
 
 // PID 계수
-float Kp = 0.8f;
-float Ki = 0.0f;
-float Kd = 0.1f;
+float Kp = 0.76f;      // 0.8
+float Ki = 0.004f;      // 0.0
+float Kd = 0.17f;      // 0.1
 
 // PID 상태 변수
 float prevError   = 0.0f;
